@@ -1,0 +1,41 @@
+#container {
+  width: 600px;
+  background-color: #eee;
+  background: none repeat scroll 0 0 #F8F8F9
+}
+
+#container ul li {
+  float: left;
+  background-color: #aaa;
+  width: 150px;
+  height: 180px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  margin: 0 10px 10px 0;
+}
+
+#container ul li h3 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}

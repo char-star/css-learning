@@ -1,0 +1,49 @@
+body {
+  background-color: #000;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+}
+
+#heading {
+  background-color: grey;
+  margin: auto;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#heading h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#heading h1 span{
+  color: #000;
+}
+
+.content {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 5px; 
+}
+
+.content p {
+  padding-top: 10px;
+}
+
+.content p em {
+  color: red;
+}
+
+.content blockquote{
+  padding-top: 10px;
+  color: green;
+  font-weight: bold;
+}
+
+.content ul {
+  padding-top: 10px;
+}
