@@ -1,0 +1,174 @@
+/* Clearfix code */
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+body {
+  font-family: 'Marcellus', serif;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#header {
+  background-color: #AC170F;
+  color: white;
+  width: 960px;
+  margin: auto;
+  padding: 10px;
+}
+
+#header h2 {
+  float: left;
+  font-weight: bold;
+}
+
+#header ul {
+  float: right;
+  font-size: 14px;
+}
+
+#header ul li {
+  display: inline;
+}
+
+#header a {
+  text-decoration: none;
+  color: white;
+}
+
+#header a:hover {
+  text-decoration: underline;
+}
+
+#container {
+  width: 960px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 605px;
+}
+
+#container h2 {
+  border-bottom: 2px solid black;
+}
+
+#container .menu {
+  width: 160px;
+  float: left;
+  margin-right: 10px;
+  color: grey;
+}
+
+#container .menu li {
+  border-bottom: 2px solid;
+  padding: 5px;
+}
+
+#container .content {
+  border-top: 6px solid #F2F2F2;
+  border-right: 4px solid #F2F2F2;
+  border-left: 4px solid #F2F2F2;
+  border-bottom: 2px solid #F2F2F2;
+  float: left;
+  width: 720px;
+  padding: 10px;
+  min-height: 400px;
+  background-color: #FCFCFC;
+}
+
+.connections {
+  padding: 10px;
+  background-color: #F2F2F2;
+}
+
+.connections li{
+  display: inline;
+  float: left;
+  border: 2px solid #EBEBEB;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  margin-right: 10px;
+  padding: 10px;
+  width: 137px;
+  height: 200px;
+}
+
+.connections li.avatar {
+  padding: 0px;
+  height: 220px;
+}
+
+.connections li.avatar p {
+  background-color: #8F8F8F;
+  height: 60px;
+  color: white;
+  padding: 5px;
+}
+
+.connections li.avatar p span {
+  color: white;
+}
+
+.connections li.avatar p em {
+  color: white;
+  font-style: italic;
+}
+
+.connections li.avatar p span.username {
+  color: #AC170F;
+}
+
+.connections li.avatar p span.location {
+  padding-top: 10px;
+}
+
+.connections li span {
+  font-weight: bold;
+  color: #606060;
+}
+
+.connections li p {
+  color: #AC170F;
+}
+
+#footer {
+  width: 960px;
+  background-color: #4D4A4A;
+  margin: auto;
+  padding: 5px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#footer ul {
+  float: right;
+}
+
+#footer ul li {
+  display: inline;
+  color: white;
+}
+
